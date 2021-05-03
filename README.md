@@ -1,1 +1,1 @@
-# This Repository contrain programs and projects related to C++.
+# This Repository contains programs and projects related to C++.
