@@ -1,9 +1,21 @@
 /*
- * Stack in c++ works same as stack in genral.
- * except that pop just removes the data from top.
- * if you want to see the data on top position, just do mystack.top(). It just
- * throws the data at top but does not pop the data.
+ * Stack:
+ *
+ * 'pop' dont give you the data from top. It just removes the data from top.
+ * If you want to see the data on top position, just do mystack.top(). It just
+ * throws the data from stack top but does not pop the data.
+ *
+ * Container Adaptor:
+ *
+ * - Provide restricted interface to meet special needs.
+ * - Implemented with fundamnetal contianer classes.
+ *
+ * 1. Stack : LIFO, push(), pop(), top().
+ * 2. queue : FIFO, push(), pop(), front(), back().
+ * 3. priority Queue : first item always has the greatest priority.
+ *                   : push(), pop(), top() 
  */
+
 #include <iostream>
 #include <stack>
 
